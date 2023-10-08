@@ -3,7 +3,6 @@ body{
   background-size:cover;
   background-position: center;
   backgroung-repeat:no-repeat;
-  font-family:"標楷體";
-  font-family:sans-serif;
+  font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
 }
 
