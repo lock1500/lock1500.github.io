@@ -13,4 +13,7 @@ h1, h2, p{
   background: #ffffff;
   opacity:0.5;
 }
-img{opacity:1;}
+img{
+  opacity:1;
+  margin: 10%;
+   }
