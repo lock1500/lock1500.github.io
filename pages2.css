@@ -4,9 +4,17 @@ body{
   background-position: center;
   backgroung-repeat:no-repeat;
   font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
-  font-size: 16px;
 }
 h1{
   color:#003153;
 }
 h2{color: #00477D;}
+
+.pic{position:relative;}
+.pic img{
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+.pic img:last-child:hover{opacity:0;}
