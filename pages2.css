@@ -5,13 +5,10 @@ body{
   backgroung-repeat:no-repeat;
   font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
 }
-h1{
-  color:#003153;
+h1, h2, p{
+  color:#000000;
   text-align:center;
 }
-h2{color: #00477D;
-     text-align:center;
-  }
-p{  text-align:center;}
+
 
 
