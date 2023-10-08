@@ -13,6 +13,7 @@ h2{color: #00477D;}
 
 .pic{position:relative;}
 .pic img{
+  position:absolute;
   -webkit-transition: opacity 2s ease-in-out;
   -moz-transition: opacity 2s ease-in-out;
   -o-transition: opacity 2s ease-in-out;
