@@ -7,11 +7,9 @@ body{
 }
 h1, h2, p{
   color:white;
-  text-align:left;
+  text-align:center;
 }
-.pic{
-  background-color: white;
-}
+
 
 img {
   position: absolute;
