@@ -6,11 +6,11 @@ body{
   font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
 }
 h1, h2, p{
-  color:white;
+  color:left;
   text-align:center;
 }
 .pic{
-  color: white;
+  background-color: white;
 }
 
 .Slideshow img {
