@@ -7,16 +7,13 @@ body{
 }
 h1, h2, p{
   color:white;
-  text-align:center;
+  text-align:left;
 }
 
 div{
   background: white;
 }
 
-img {
-  marging-top: auto;
-  marging-left: auto; 
-}
+
   
 
