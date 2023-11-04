@@ -12,7 +12,7 @@ h1, h2, p{
 .pic{
   color: white;
 }
-.slideshow {
+.Slideshow {
   position: relative;
   left-margin: auto;
   right-margin: auto;
@@ -20,7 +20,7 @@ h1, h2, p{
   
 }
 
-.slideshow img {
+.Slideshow img {
   position: absolute;
   top: 0;
   left: 50%;
