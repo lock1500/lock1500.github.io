@@ -7,18 +7,18 @@ body{
 }
 h1, h2, p{
   color:white;
-  text-align:center;
+  text-align:left;
 }
 
-div{
+#white{
+  width: 80%
+  height: 90%
+}
+
+.Slideshow{
   position: relative;
   margin-top: auto;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-image:url('https://scontent.ftpe14-1.fna.fbcdn.net/v/t1.15752-9/343760542_993092978729573_4671435619114997745_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=qix11ZLMNkcAX8KpILP&_nc_oc=AQmnS5nSs0NaySwBW0U7UMZAHOcQAWfvUzT-43fQO2E9w_99OOGMU0g-U5rg3DO3h4c&_nc_ht=scontent.ftpe14-1.fna&oh=03_AdQMA9hqwqlFpvuVP-j6GHRbDzSlS78Mn8gl-A1dtlPArw&oe=656E08E9');
-  background: cover;
 }
-
 .Slideshow img{
   top: 50%;
   left: 50%;
