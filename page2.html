@@ -1,7 +1,28 @@
 <!DOCTYPE html>
 
 <html>
-  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    $(document).ready(function() {
+      $('.Slideshow').each(function () {
+
+  let slideImgs = $(this).find('img'),
+          slideImgsCount = slideImgs.length,
+          currentIndex = 0;
+
+  slideImgs.eq(currentIndex).fadeIn();
+
+  setInterval(showNextSlide, 5000);
+
+  function showNextSlide() {
+    let nextIndex = (currentIndex + 1) % slideImgsCount;
+    console.log(nextIndex)
+    slideImgs.eq(currentIndex).fadeOut();
+    slideImgs.eq(nextIndex).fadeIn();
+    currentIndex = nextIndex;
+  }
+})
+    });
+  </script>
   <head>
     <link href="pages2.css" rel="stylesheet"/>
     <meta charset="utf-8">
