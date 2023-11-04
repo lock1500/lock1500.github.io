@@ -17,8 +17,8 @@ h1, h2, p{
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
-  display: none;
+  
+  
 }
   
 
