@@ -6,6 +6,10 @@
        $('button').click(function(){
          $('ul').slideToggle();
        });
+        $('#trick').click(function(){
+           $('#trick').text("Oh no!");
+           $('body').hinge();
+       });
      });
    </script>
   <head>
@@ -41,4 +45,5 @@
       </footer>
     </section>
   </body>
+   <button id = "trick" class= "Trick">don't click me, please</button>
 </html>
