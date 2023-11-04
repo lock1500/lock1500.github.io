@@ -9,6 +9,9 @@ h1, h2, p{
   color:#ffffff;
   text-align:center;
 }
+.pic{
+  background-color: white;
+}
 .slideshow {
   position: relative;
   margin: auto;
