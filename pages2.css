@@ -12,7 +12,7 @@ h1, h2, p{
 
 
 .Slideshow img{
-  margine-left:100px;
+  margine-left:49%;
   position: absolute;
   display: none;
 }
