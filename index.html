@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+   <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+   <script>
+     $(document).ready(function(){
+       $('button').click(function(){
+         $('ul').toggle();
+       });
+     });
+   </script>
   <head>
     <link href="styles.css" rel="stylesheet"/>
     <meta charset="utf-8">
@@ -21,10 +29,10 @@
         <li>吃/喝甜品!</li>
         <li>玩遊戲</li>
         <details> 
-          <summary>遊戲名稱</summary>
+          <button>遊戲名稱</button>
             <ul>  
-              <li>光遇</li>
-              <li>DEEMO2</li>
+              <p>光遇</p>
+              <p>DEEMO2</p>
             </ul>
         </details>
         <li>照相(技術0) <a href="page2.html">點我看相片ouob</a></li>
