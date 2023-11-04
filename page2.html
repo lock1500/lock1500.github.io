@@ -11,13 +11,13 @@
       
         setInterval(showNextSlide, 5000);
       
-        function showNextSlide() {
+        
           let nextIndex = (currentIndex + 1) % slideImgsCount;
           console.log(nextIndex)
           slideImgs.eq(currentIndex).fadeOut();
           slideImgs.eq(nextIndex).fadeIn();
           currentIndex = nextIndex;
-  }
+  
 })
   </script>
   <head>
