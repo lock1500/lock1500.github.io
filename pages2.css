@@ -10,8 +10,10 @@ h1, h2, p{
   text-align:center;
 }
 
+.back{position:related;}
 #white{
-  width: 40%;
+  width: 70%;
+  height: 15%;
   left: 50%;
   transform: translate(-50%, 0);
 }
