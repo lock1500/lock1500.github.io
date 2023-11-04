@@ -7,11 +7,12 @@ body{
 }
 h1, h2, p{
   color:white;
-  text-align:center;
+  text-align:left;
 }
 
 div{
   position: relative;
+  maring-top: auto;
 }
 
 .Slideshow img{
