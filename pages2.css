@@ -10,6 +10,9 @@ h1, h2, p{
   text-align:left;
 }
 
+.pic{
+  background: white;
+}
 
 img {
   position: absolute;
