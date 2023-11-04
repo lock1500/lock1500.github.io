@@ -14,7 +14,8 @@ h1, h2, p{
 }
 .slideshow {
   position: relative;
-  margin: auto;
+  left-margin: auto;
+  right-margin: auto;
   overflow: hidden;
   
 }
