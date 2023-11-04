@@ -10,12 +10,11 @@ h1, h2, p{
   text-align:center;
 }
 
-.pic{
+div{
   background: white;
 }
 
 img {
-  position: absolute;
   marging-top: auto;
   marging-left: auto; 
 }
