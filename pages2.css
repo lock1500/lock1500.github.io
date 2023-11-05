@@ -5,7 +5,7 @@ body{
   backgroung-repeat:no-repeat;
   font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
 }
-body{
+div{
   position: center;
   text-align: center;
   background-size:cover;
