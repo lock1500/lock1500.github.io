@@ -12,9 +12,9 @@ div{
   backgroung-repeat:no-repeat;
   background: rgba(0, 0, 0, 0.5);
 }
-h1, h2, p{
+h1, h2, p, hr{
   color:white;
-  text-align:left;
+  text-align:center;
   opacity: 1;
 }
 #dot{
