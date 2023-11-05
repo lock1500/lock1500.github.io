@@ -17,7 +17,7 @@ body{
 }
 h1, h2, p{
   color:white;
-  text-align:center;
+  text-align:left;
   opacity: 1;
 }
 #dot{opacity: 0.1;}
