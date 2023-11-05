@@ -9,8 +9,11 @@ h1, h2, p{
   color:white;
   text-align:center;
 }
-#white{
-  transfrom: scale(8,1); 
+.back{
+  position:fixed;
+  background-color: black;
+  backgroung: rgba(0, 0, 0, 0.8);
+  text-align: center;
 }
 
 
