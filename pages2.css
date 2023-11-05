@@ -6,8 +6,8 @@ body{
   font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
 }
 div{
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
   position: center;
   text-align: center;
   background-size:cover;
@@ -24,7 +24,8 @@ hr{
   text-align:center;
   opacity: 1;
   background-color: white;
-  border-color: white;
+  border: none;
+  marging: 5%;
 }
 #dot{
   opacity: 0.1;
