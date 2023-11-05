@@ -2,16 +2,23 @@ body{
   background-image:url('IMG_20230122_170325.jpg');
   background: rgba(0, 0, 0, 0.8);
   background-size:cover;
-  background-position: left;
+  background-position: center;
   backgroung-repeat:no-repeat;
   font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+}
+.back{
+  background: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/343760542_993092978729573_4671435619114997745_n.jpg?stp=dst-jpg_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=510075&_nc_ohc=qix11ZLMNkcAX9doobY&_nc_oc=AQl2SyWzsl2T45tSLIDIfXRooL4O3ArwUJFSAOHnaFePKRsQMonUHVSmmY68j1znXZ8TPCiUBSN_PaqN3vGhoGZk&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTh1qCIzCBd4iHpj2GFdJ3mFaWUoVWjT4tueJgfAlDh2Q&oe=656E08E9");
+  position: center;
+  text-align: center;
+  background-size:cover;
+  backgroung-repeat:no-repeat;
+  background: rgba(0, 0, 0, 0.5);
 }
 h1, h2, p{
   color:white;
   text-align:center;
   opacity: 1;
 }
-
 .Slideshow{
   position: relative;
   margin-top: auto;
