@@ -14,8 +14,7 @@ h1, h2, p{
 #white{
   width: 70%;
   height: 15%;
-  left: 50%;
-  transform: translate(-50%, 0);
+  
 }
 
 .Slideshow{
