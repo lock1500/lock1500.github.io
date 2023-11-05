@@ -1,5 +1,6 @@
 body{
   background-image:url('IMG_20230122_170325.jpg');
+  background: rgba(0, 0, 0, 0.8);
   background-size:cover;
   background-position: left;
   backgroung-repeat:no-repeat;
@@ -7,15 +8,9 @@ body{
 }
 h1, h2, p{
   color:white;
-  text-align:left;
+  text-align:center;
+  opacity: 1;
 }
-.back{
-  position:fixed;
-  background-color: black;
-  backgroung: rgba(0, 0, 0, 0.8);
-  text-align: center;
-}
-
 
 .Slideshow{
   position: relative;
