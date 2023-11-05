@@ -21,9 +21,10 @@ h1, h2, p{
 }
 hr{
   height:2px;
-  color:white;
   text-align:center;
   opacity: 1;
+  background-color: white;
+  border-color: white;
 }
 #dot{
   opacity: 0.1;
