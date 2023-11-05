@@ -14,7 +14,7 @@ div{
 }
 h1, h2, p{
   color:white;
-  text-align:left;
+  text-align:center;
   opacity: 1;
 }
 #dot{opacity: 0.1;}
