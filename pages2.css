@@ -6,13 +6,21 @@ body{
   font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
 }
 div{
+  margin-left: 10px;
+  margin-right: 10px;
   position: center;
   text-align: center;
   background-size:cover;
   backgroung-repeat:no-repeat;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
 }
-h1, h2, p, hr{
+h1, h2, p{
+  color:white;
+  text-align:center;
+  opacity: 1;
+}
+hr{
+  height:2px;
   color:white;
   text-align:center;
   opacity: 1;
